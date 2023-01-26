@@ -1,0 +1,9 @@
+{
+  "name": "jwt-auth",
+  "version": "1.0.0",
+  "description": "A JWT Authentication using node.js",
+  "main": "index.js",
+  "repository": "https://github.com/AbdulQuayyum/jwt-auth.git",
+  "author": "Abdul-Quayyum",
+  "license": "MIT"
+}
