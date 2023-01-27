@@ -2,8 +2,20 @@
   "name": "jwt-auth",
   "version": "1.0.0",
   "description": "A JWT Authentication using node.js",
-  "main": "index.js",
+  "main": "Server.js",
+  "scripts": {
+    "start": "nodemon Server.js",
+    "startAuth": "nodemon AuthServer.js"
+  },
   "repository": "https://github.com/AbdulQuayyum/jwt-auth.git",
   "author": "Abdul-Quayyum",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
 }
